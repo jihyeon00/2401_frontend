@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+/* 1. float와 flex를 이용한 버튼 만들기 */
+div.float-test{
+    width: 120px;
+    height: 30px;
+    border-radius:15px;
+    background-color: orange;
+    display:flex;
+    justify-content : center;
+    align-items : center;
+    font-size:12px;
+    font-weight:700;
+    float:left;
+}
+div.flex-container{
+    display: flex;
+}
+div.flex-test{
+    width: 120px;
+    height: 30px;
+    border-radius:15px;
+    background-color: orange;
+    display:flex;
+    justify-content : center;
+    align-items : center;
+    font-size:12px;
+    font-weight:700;
+    float:left;
+}
+</style>
+</head>
+<body>
+<!--float와 flex를 이용한 버튼 만들기-->
+<div>
+    <div class="float-test">로그인</div>
+    <div class="float-test">회원가입</div>
+</div>
+    <br><br>
+<div class="flex-container">
+    <div class="flex-test">로그인</div>
+    <div class="flex-test">회원가입</div>
+</div>
+</body>
+</html>
