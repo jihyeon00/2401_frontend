@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        padding: 100px;
+    }
+    .container{
+        width: 100px;
+        height: 100px;
+        background-color: royalblue;
+    }
+    .item{
+        display: flex;
+        width: 100px;
+        height: 100px;
+        background-color: orange;
+        /* transform: rotate(45deg);*/
+        /* transform: 
+            perspective(200px)
+            translateX(0px) 배수
+            rotateX(45deg); */
+        /*transition: transform 1s;*/
+        justify-content: center;
+        align-items: center;
+        font-size: 60px;
+        color: brown;
+        font-weight: 600;
+        transform: rotateY(180deg);
+        backface-visibility: hidden;
+    }
+    .item:hover{
+        width: 100px;
+        height: 100px;
+        background-color: orange;
+        transform: skewX(-15deg);
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">가</div>
+    </div>
+</body>
+</html>
