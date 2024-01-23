@@ -12,7 +12,7 @@
 // jquery js
 $('.category-button').each(function(index, value){
   value.addEventListener("click", event => {
-    $('#active-category-button').removeAttribute('id');
-    document.setAttribute('id', 'active-category-button');
+    $('#active-category-button').removeAttr('id');
+    value.setAttribute('id', 'active-category-button');
   })
 });

@@ -163,6 +163,10 @@ button {
   height: 28px;
 }
 
+main {
+  
+}
+
 main #place-items-wrapper {
   display: grid;
   grid-template-columns: repeat(4, 308px);
@@ -217,9 +221,7 @@ main #place-items-wrapper .place-list-item .place-image-wrapper img{
   padding: 14px 19px;
   align-items: center;
   gap: 8px;
-}
-#fixed-map-button:hover {
-  transform: scale(1.05);
+  cursor: pointer;
 }
 
 /* 화면 너비가 1000px 보다 크면 pc화면 */
@@ -228,9 +230,6 @@ main #place-items-wrapper .place-list-item .place-image-wrapper img{
     display: none;
   }
   .tablet {
-    display: none;
-  }
-  #test1 {
     display: none;
   }
 }
